@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+html {
+    font-family: 'Oswald', sans-serif ;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pozadi {
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color:rgba(255, 255, 255, 0.815);
+}
+
+header {
+    background-color: rgb(107, 51, 51);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2, h3 {
+    color: rgb(107, 51, 51);
+    text-align: center;
+    font: 200%;
+} 
+
+footer {
+    background-color: rgb(107, 51, 51);
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rozcestnik ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(107, 51, 51);
+}
+  
+.rozcestnik>ul>li {
+    float: left;
+}
+
+.rozcestnik>ul>li>a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.rozcestnik>ul>li>a:hover {
+    background-color: rgb(83, 37, 37);
+}

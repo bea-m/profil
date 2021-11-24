@@ -14,7 +14,7 @@ h2 {
 }
 
 body {
-background-image: url("img/geez.png");
+background-image: url("img/bg1.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -131,6 +131,18 @@ div.desc {
     margin: auto;
 }
 
+
+
+.center {
+
+
+    margin-left: 80px !important;
+
+    
+}
+
+
+
 @media only screen and (max-width: 1200px){
     #mainsec {
         width: 90%;
@@ -148,10 +160,36 @@ div.desc {
 }
 
 @media only screen and (max-width: 500px){
+   
     div.gallery {
         width: 100%;
     }
+
+
+
+
 }
+
+@media only screen and (max-width: 600px){
+   
+.center {
+    margin-left: 0px !important;
+  
+
+ }
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 footer {
     position: fixed;
@@ -159,3 +197,30 @@ footer {
     left: 0;
     bottom: 0;
   }
+
+#portifolio1 {
+padding: 60px;
+margin: auto;
+
+}  
+
+#portifolio2 {
+    padding: 60px;
+    margin: 0px;
+    border: 5px solid rgb(234, 0, 255);
+    }  
+
+
+
+
+
+
+   
+
+
+
+
+
+    .clear {
+        clear:both;
+    }
